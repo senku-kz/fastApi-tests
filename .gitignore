@@ -1,0 +1,42 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Test reports
+.coverage
+htmlcov/
+pytest_cache/
+*.pytest_cache/
+
+# Config files
+*.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Dependency files
+*.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
