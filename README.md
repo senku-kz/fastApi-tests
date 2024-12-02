@@ -15,5 +15,5 @@ pytest tests/
 # Run tests in verbose mode
 pytest -v tests/
 
-# Run doctests
+# Run doctest
 python -m doctest -v app/main.py
