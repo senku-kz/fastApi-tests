@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "iin": "123456789012",
+    "surname": "Ivanov",
+    "firstname": "Ivan",
+    "secondname": "Ivanovich",
+    "birthdate": "1990-01-01",
+    "sex": "male",
+    "city": "Astana"
+  },
+  {
+    "id": 2,
+    "iin": "987654321098",
+    "surname": "Petrova",
+    "firstname": "Anna",
+    "secondname": "Petrovna",
+    "birthdate": "1995-05-15",
+    "sex": "female",
+    "city": "Almaty"
+  },
+  {
+    "id": 3,
+    "iin": null,
+    "surname": "Sidorov",
+    "firstname": "Petr",
+    "secondname": "",
+    "birthdate": "1988-03-20",
+    "sex": "male",
+    "city": "Shymkent"
+  },
+  {
+    "id": 4,
+    "iin": "456789123456",
+    "surname": "Smith",
+    "firstname": "John",
+    "secondname": null,
+    "birthdate": null,
+    "sex": null,
+    "city": "Karaganda"
+  },
+  {
+    "id": 5,
+    "iin": null,
+    "surname": "Doe",
+    "firstname": "Jane",
+    "secondname": "",
+    "birthdate": null,
+    "sex": "female",
+    "city": "Kokshetau"
+  },
+  {
+    "id": 6,
+    "iin": "789456123789",
+    "surname": "Kim",
+    "firstname": "Jin",
+    "secondname": "Hyun",
+    "birthdate": "1992-07-07",
+    "sex": "male",
+    "city": "Aktobe"
+  },
+  {
+    "id": 7,
+    "iin": null,
+    "surname": "Brown",
+    "firstname": "Emily",
+    "secondname": null,
+    "birthdate": "2000-12-12",
+    "sex": "female",
+    "city": "Pavlodar"
+  },
+  {
+    "id": 8,
+    "iin": "321654987654",
+    "surname": "Johnson",
+    "firstname": "Chris",
+    "secondname": "Alan",
+    "birthdate": null,
+    "sex": null,
+    "city": "Taraz"
+  },
+  {
+    "id": 9,
+    "iin": "147258369123",
+    "surname": "White",
+    "firstname": "Sophia",
+    "secondname": "",
+    "birthdate": "1985-04-23",
+    "sex": "female",
+    "city": "Semey"
+  },
+  {
+    "id": 10,
+    "iin": null,
+    "surname": "Davis",
+    "firstname": "Megan",
+    "secondname": null,
+    "birthdate": "1997-11-11",
+    "sex": null,
+    "city": "Kostanay"
+  }
+]

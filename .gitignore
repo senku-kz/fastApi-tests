@@ -40,3 +40,5 @@ pip-wheel-metadata/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+my_app.db
