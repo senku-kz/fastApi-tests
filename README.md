@@ -21,7 +21,7 @@ python -m doctest -v app/main.py
 
 # Case 2: Solve quadratic
 ## Run pytest
-pytest tests/
+pytest tests/case_2_solve.py
 
 ## Run pytest in verbose mode
 pytest tests/case_2_solve.py -v
@@ -30,3 +30,8 @@ pytest tests/case_2_solve.py -v
 # Case 3: Work with test db
 ## Run pytest in verbose mode
 pytest tests/case_3_sqlalchemy.py -v
+
+
+# Run all tests
+pytest tests/ -v
+
