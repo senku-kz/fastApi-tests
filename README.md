@@ -1,27 +1,32 @@
-# Solve quadratic
-## Require packages
-pip install pytest httpx
+# Run project
+uvicorn app.main:app --reload
+
+
+# Require packages
+pip install -r requirements.txt
 
 pip freeze > requirements.txt
 
-pip install -r requirements.txt
+## Work with pytest lib
+pip install pytest httpx
+
+## Work with test db
+pip install sqlalchemy pytest
 
 
-## Run project
-uvicorn app.main:app --reload
-
-## Run tests
-pytest tests/
-
-## Run tests in verbose mode
-pytest -v tests/
-
+# Case 1: Greetings
 ## Run doctest
 python -m doctest -v app/main.py
 
-# Work with test db
-## Require packages
-pip install sqlalchemy pytest
 
-## Run tests in verbose mode
+# Case 2: Solve quadratic
+## Run pytest
+pytest tests/
+
+## Run pytest in verbose mode
+pytest tests/case_2_solve.py -v
+
+
+# Case 3: Work with test db
+## Run pytest in verbose mode
 pytest tests/test_api_db.py -v

@@ -41,4 +41,4 @@ pip-wheel-metadata/
 .DS_Store
 Thumbs.db
 
-my_app.db
+*.db

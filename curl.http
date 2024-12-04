@@ -1,15 +1,15 @@
 # Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+GET http://127.0.0.1:8000/greetings/
 Accept: application/json
 
 ###
 
-GET http://127.0.0.1:8000/hello/User
+GET http://127.0.0.1:8000/greetings/hello/User
 Accept: application/json
 
 ###
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -21,7 +21,7 @@ Content-Type: application/json
 
 ###
 # Test 1: Infinite solutions (a=0, b=0, c=0)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -34,7 +34,7 @@ Content-Type: application/json
 ###
 
 # Test 2: No solution (a=0, b=0, c=1)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -47,7 +47,7 @@ Content-Type: application/json
 ###
 
 # Test 3: Linear equation with one root (a=0, b=2, c=-4)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -60,7 +60,7 @@ Content-Type: application/json
 ###
 
 # Test 4: Two roots (D > 0, a=1, b=-3, c=2)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -73,7 +73,7 @@ Content-Type: application/json
 ###
 
 # Test 5: One root (D = 0, a=1, b=-2, c=1)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -86,7 +86,7 @@ Content-Type: application/json
 ###
 
 # Test 6: No real roots (D < 0, a=1, b=0, c=1)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -99,7 +99,7 @@ Content-Type: application/json
 ###
 
 # Test 7: Large coefficients (a=1e6, b=1e6, c=1)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
@@ -112,7 +112,7 @@ Content-Type: application/json
 ###
 
 # Test 8: Small coefficients (a=1e-6, b=1e-6, c=1e-12)
-POST http://127.0.0.1:8000/solve
+POST http://127.0.0.1:8000/math/solve
 Accept: application/json
 Content-Type: application/json
 
