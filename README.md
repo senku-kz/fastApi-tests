@@ -30,3 +30,5 @@ pytest tests/case_2_solve.py -v
 # Case 3: Work with test db
 ## Run pytest in verbose mode
 pytest tests/test_api_db.py -v
+
+pytest tests/case_3_sqlalchemy.py -v

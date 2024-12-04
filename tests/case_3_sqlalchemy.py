@@ -1,8 +1,8 @@
 import pytest
 import json
 from datetime import datetime
-from app.models import User
-from app.test_db import TestSessionLocal, Base, test_engine
+from app.models.case_3_sqlalchemy_models import User
+from tests.test_db import TestSessionLocal, Base, test_engine
 
 
 # Подготовка базы данных перед тестами

@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.models import Base
+from app.models.database import Base
 
 # Тестовая база данных в памяти
 SQLALCHEMY_TEST_DATABASE_URL = "sqlite:///:memory:"
