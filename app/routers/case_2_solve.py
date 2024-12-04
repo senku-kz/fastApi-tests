@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from app.models.case_2_pydantic_models import QuadraticInput, QuadraticOutput
-from app.services import solve_quadratic
+from services.case_2_solve import solve_quadratic
 
 
 router = APIRouter()
